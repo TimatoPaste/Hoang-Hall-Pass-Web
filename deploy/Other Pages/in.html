@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+	<title>Hoang Pass In</title>
+	<link rel="icon" href="return.png">
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body style="background-color:#ffefcc;">
+	<script type="module">
+	  // Import the functions you need from the SDKs you need
+	  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+	  // TODO: Add SDKs for Firebase products that you want to use
+	  // https://firebase.google.com/docs/web/setup#available-libraries
+
+	  // Your web app's Firebase configuration
+	  const firebaseConfig = {
+		apiKey: "AIzaSyC5UdQJjefjLpa3ulTpE2S3Uhi9nMjcdZc",
+		authDomain: "mrhoangpass-80db4.firebaseapp.com",
+		databaseURL: "https://mrhoangpass-default-rtdb.firebaseio.com",
+		projectId: "mrhoangpass",
+		storageBucket: "mrhoangpass.appspot.com",
+		messagingSenderId: "611025268140",
+		appId: "1:611025268140:web:c3f3e1447b6b5ec9bbde09"
+	  };
+
+	  // Initialize Firebase
+	  const app = initializeApp(firebaseConfig);
+	</script>
+	<a href="../index.html"style="left:100px;top:100px;">back</a>
+	<h1 style="text-align:center;">Coming Back!</h1>
+	<br>
+	<form id="formIn">
+		<input type="text" placeholder="First Name" id="fName">
+		<br>
+		<input type="text" placeholder="Last Name" id="lName">
+		<br>
+		<input type="text" placeholder="6-Digit Student ID" minlength="6" maxlength="6" id="id">
+		<br>
+		<input type="submit" value="submit">
+	</form>
+	<script type="module" src="in.js"></script>
+
+
+</body>
